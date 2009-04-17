@@ -9,7 +9,7 @@ if exists("syntax_on")
 endi
 let g:colors_name="typing"
 
-hi Normal       guifg=#cccccc       guibg=#111111
+hi Normal       guifg=#cccccc       guibg=#1f1f1f
 hi Title        guifg=White                         gui=bold
 hi Title        ctermfg=White                       cterm=bold
 hi LineNr       guifg=DarkGrey                                  
