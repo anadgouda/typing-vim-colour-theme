@@ -9,7 +9,7 @@ if exists("syntax_on")
 endi
 let g:colors_name="typing"
 
-hi Normal       guifg=#cccccc       guibg=#1f1f1f
+hi Normal       guifg=#c0c0c0       guibg=#222222
 hi Title        guifg=White                         gui=bold
 hi Title        ctermfg=White                       cterm=bold
 hi LineNr       guifg=DarkGrey                                  
@@ -26,8 +26,8 @@ hi Exception    guifg=#66ccff                       gui=NONE
 hi Exception    ctermfg=LightBlue
 hi Boolean      guifg=LightGreen                    gui=NONE
 hi Boolean      ctermfg=LightGreen
-hi String       guifg=LightGreen    guibg=Black                 
-hi String       ctermfg=LightGreen  ctermbg=Black
+hi String       guibg=Black                 
+hi String       ctermbg=Black
 hi Type         guifg=LightGreen                    gui=NONE
 hi Type         ctermfg=LightGreen                  cterm=NONE
 hi TypeDef      guifg=LightGreen                    gui=NONE                      
@@ -39,24 +39,24 @@ hi Float        ctermfg=LightGreen                  cterm=NONE
 hi Constant     guifg=LightGreen                    gui=NONE                 
 hi Constant     ctermfg=LightGreen                  cterm=NONE
 hi Function     guifg=#cc6633                                   
-hi Function     ctermfg=Brown
+hi Function     ctermfg=DarkYellow
 hi Preproc      guifg=#cc6633                                   
-hi Preproc      ctermfg=Brown
+hi Preproc      ctermfg=DarkYellow
 hi Keyword      guifg=#cc6633                                   
-hi Keyword      ctermfg=Brown
+hi Keyword      ctermfg=DarkYellow
 hi Include      guifg=#cc6633                                   
-hi Include      ctermfg=Brown 
+hi Include      ctermfg=DarkYellow 
 hi Folded       guifg=DarkGrey      guibg=Black                 
 hi Folded       ctermfg=DarkGrey    ctermbg=Black
 hi Incsearch    guifg=Yellow        guibg=Black                 
 hi Incsearch    ctermfg=Yellow
-hi Search       guifg=DarkRed       guibg=Yellow                
-hi Search       ctermfg=DarkRed     ctermbg=Yellow
+hi Search       guifg=Yellow        guibg=Black
+hi Search       ctermfg=Yellow      ctermbg=Black
 hi Ignore       guifg=DarkGrey                                  
 hi Ignore       ctermfg=DarkGrey
 hi Select       guifg=Black         guibg=Yellow                
 hi Select       ctermfg=Black       ctermbg=Yellow
-hi Spellbad     guifg=LightMagenta  guibg=Black                 
+hi Spellbad     guifg=Magenta       guibg=Black                 
 hi Spellbad     ctermfg=Magenta     ctermbg=Black
 hi Spellcap     guifg=Grey          guibg=Black                 
 hi Spellcap     ctermfg=Grey        ctermbg=Black
@@ -69,3 +69,4 @@ hi Specialchar                                      cterm=underline
 hi Tabline      guifg=#ccc          guibg=#333                  
 hi Tablinefill  guibg=#333
 hi Tablinesel   guifg=#000          guibg=#666
+hi Cursor                           guibg=#666
