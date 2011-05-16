@@ -9,13 +9,14 @@ if exists("syntax_on")
 endi
 let g:colors_name="typing"
 
-hi Normal       guifg=#c0c0c0       guibg=#222222
+hi Normal       guifg=#cccccc       guibg=#111111
+hi Normal       ctermfg=LightGrey
 hi Title        guifg=White                         gui=bold
 hi Title        ctermfg=White                       cterm=bold
-hi LineNr       guifg=DarkGrey                                  
-hi LineNr       ctermfg=DarkGrey
-hi Comment      guifg=DarkGrey                                  
-hi Comment      ctermfg=DarkGrey
+hi LineNr       guifg=#cc9999       guibg=Black                            
+hi LineNr       ctermfg=DarkGrey     ctermbg=Black
+hi Comment      guifg=Cyan
+hi Comment      ctermfg=Cyan
 hi Identifier	guifg=LightGreen                    gui=NONE                         
 hi Identifier   ctermfg=LightGreen                  cterm=none
 hi Statement    guifg=#66ccff                       gui=NONE
@@ -26,8 +27,8 @@ hi Exception    guifg=#66ccff                       gui=NONE
 hi Exception    ctermfg=LightBlue
 hi Boolean      guifg=LightGreen                    gui=NONE
 hi Boolean      ctermfg=LightGreen
-hi String       guibg=Black                 
-hi String       ctermbg=Black
+hi String       guifg=Grey
+hi String       ctermfg=Grey
 hi Type         guifg=LightGreen                    gui=NONE
 hi Type         ctermfg=LightGreen                  cterm=NONE
 hi TypeDef      guifg=LightGreen                    gui=NONE                      
